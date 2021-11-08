@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/drawable-xxxhdpi/btn_star.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/drawable/btn_star.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_get.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_support_info.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_usermain.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_usermenu.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/activity_volunteer_resister.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/image_fullstar.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/layout_input.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/liskview_apply.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/listview_custom_mypage.xml" value="0.1" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/popup_mealdetail.xml" value="0.4" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/popup_supportdetail.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/dntdm/AndroidStudioProjects/freemeal2/app/src/main/res/layout/popup_volunteerdetail.xml" value="0.24682971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

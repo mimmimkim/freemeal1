@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="무료급식소 후원"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/favorite"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:gravity="center"-->
+<!--        android:text="즐겨찾기" />-->
+<!--    -->
+        <Button
+            android:id="@+id/checkbox_star"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_star"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#C9A6FA"
+            android:gravity="center"
+            android:text="위치"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:text="**시 **동"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#C9A6FA"
+            android:gravity="center"
+            android:text="급식 메뉴"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:text="***-****-******"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#C9A6FA"
+            android:gravity="center"
+            android:text="수량"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:text="123-1234-1234"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#C9A6FA"
+            android:gravity="center"
+            android:text="홈페이지"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:text="링크"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="닫기"
+        android:id="@+id/btn_popupclose"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마이페이지"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="18.7dp"
+        android:layout_marginTop="11dp"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E2FCFF"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_profileImage"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/iv_profileImage"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/profile_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="이름" />
+
+
+                    <TextView
+                        android:id="@+id/profile_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="이메일" />
+
+                    <TextView
+                        android:id="@+id/profile_volunteer_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="총 봉사 시간" />
+
+                    <Button
+                        android:id="@+id/profile_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="프로필 편집"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/fav_meal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾기한 급식소"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingTop="13dp"
+        android:layout_below="@id/fav_meal"
+        />
+
+
+    <ListView
+        android:id="@+id/fav_meal_listView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:dividerHeight="2dp"
+        android:scrollbarSize="8dp" />
+
+
+    <Button
+        android:id="@+id/btn_support_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="후원 알아보기"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_volunteer_resister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="봉사 신청"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/volunteer_info_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신청한 봉사 정보"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingTop="13dp"
+        android:layout_below="@id/volunteer_info_check"
+        />
+
+
+    <ListView
+        android:id="@+id/listView_volunteer_apply"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:dividerHeight="2dp"
+        android:scrollbarSize="8dp" />
+
+
+</LinearLayout>
